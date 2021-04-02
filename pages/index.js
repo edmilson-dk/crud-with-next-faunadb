@@ -19,13 +19,13 @@ function Home() {
       <h1>Next Fauna CRUD</h1>
 
       <div className="table">
-      <h2>Customer Data</h2>
+        <h2>Customer Data</h2>
 
-      <div className={`${styles.tableContainer} ${styles.tableHeaderOutline}`}>
-        <h4>Name</h4>
-        <h4>Telephone</h4>
-        <h4 className="creditCard">Credit card</h4>
-      </div>
+        <div className='table-header'>
+          <h4 className="name-title title-border">Name</h4>
+          <h4 className="telephone-title title-border">Telephone</h4>
+          <h4 className="creditCard">Credit card</h4>
+        </div>
       {
         data ? (
         data.map((d) => (
