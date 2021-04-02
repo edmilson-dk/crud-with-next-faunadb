@@ -36,10 +36,10 @@ const EditForm = ({ defaultValues, id }) => {
 
   return (
     <Layout>
-      <h1>Update Customer</h1>
+      <h1 className="sub-title">Update Customer</h1>
 
-      <form>
-        <div>
+      <form className="form">
+        <div className="input-wrapper">
           <label>First Name</label>
           <input
             type="text"
@@ -50,7 +50,7 @@ const EditForm = ({ defaultValues, id }) => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Last Name</label>
           <input
             type="text"
@@ -61,7 +61,7 @@ const EditForm = ({ defaultValues, id }) => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Telephone</label>
           <input
             type="text"
@@ -72,7 +72,7 @@ const EditForm = ({ defaultValues, id }) => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Credit Card Number</label>
           <input
             type="text"
@@ -84,7 +84,7 @@ const EditForm = ({ defaultValues, id }) => {
         </div>
 
         <div className="submit">
-          <button type="button" onClick={handlerUpdateCostumerClick} className="createButton">
+          <button type="button" onClick={handlerUpdateCostumerClick} className="createNew">
             Update
           </button>
         </div>

@@ -31,15 +31,19 @@ function Customer() {
 
   return (
     <Layout>
-      <h1>Customer</h1>
+      <h1 className="sub-title">Customer</h1>
       <hr/>
       {data ? (
-        <div>
+        <div className="costumer-data">
           <p className="name">
-            {data.firstName} {data.lastName}
+            <span>Name: </span> {data.firstName} {data.lastName}
           </p>
-          <p className="num">{data.telephone}</p>
-          <p className="num">{data.creditCard.number}</p>
+          <p className="num">
+            <span>Telephone: </span> {data.telephone}
+          </p>
+          <p className="num">
+            <span>Credit card: </span> {data.creditCard.number}
+          </p>
 
           <div className="buttons">
             <Link href="/customers/[id]/update" as={`/customers/${id}/update`}>

@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react';
 import Router from 'next/router';
-import { useForm } from 'react-hook-form';
 
 import Layout from '../../components/layout';
 
@@ -42,10 +41,10 @@ const Create = () => {
 
   return (
     <Layout>
-      <h1>Create Customer</h1>
+      <h2 className="sub-title">Create Customer</h2>
 
-      <form>
-        <div>
+      <form className="form">
+        <div className="input-wrapper">
           <label>First Name</label>
           <input
             type="text"
@@ -55,7 +54,7 @@ const Create = () => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Last Name</label>
           <input
             type="text"
@@ -65,7 +64,7 @@ const Create = () => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Telephone</label>
           <input
             type="text"
@@ -75,7 +74,7 @@ const Create = () => {
           />
         </div>
 
-        <div>
+        <div className="input-wrapper">
           <label>Credit Card Number</label>
           <input
             type="text"
@@ -86,7 +85,7 @@ const Create = () => {
         </div>
 
         <div className="submit">
-          <button type="button" onClick={handlerCreateCostumerClick} className="createButton">
+          <button type="button" onClick={handlerCreateCostumerClick} className="createNew">
             Create
           </button>
         </div>
