@@ -23,19 +23,19 @@ A aplicação foi feita seguindo um artigo no medium, você pode esta lendo ele 
 
 ### Home 
 
-![Home page](https://github.com/edmilson-dk/flash-promo/blob/main/.github/home.png)
+![Home page](https://github.com/edmilson-dk/crud-with-next-faunadb/blob/main/.github/home.png)
 
 ### Create Costumer
 
-![Create costumer](https://github.com/edmilson-dk/flash-promo/blob/main/.github/create.png)
+![Create costumer](https://github.com/edmilson-dk/crud-with-next-faunadb/blob/main/.github/create.png)
 
 ### View Costumer
 
-![Create costumer](https://github.com/edmilson-dk/flash-promo/blob/main/.github/view.png)
+![Create costumer](https://github.com/edmilson-dk/crud-with-next-faunadb/blob/main/.github/view.png)
 
 ### Update Costumer
 
-![Update](https://github.com/edmilson-dk/flash-promo/blob/main/.github/update.png)
+![Update](https://github.com/edmilson-dk/crud-with-next-faunadb/blob/main/.github/update.png)
 
 <a id="execute"></a>
 ## Executando o front-end
