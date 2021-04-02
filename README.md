@@ -1,6 +1,6 @@
-# Crud com NextJS Serveless
+# Crud com NextJS Serverless
 
-Simples aplicação em reactjs com nextjs utilizando serveless no nextjs, a aplicação consiste em um simples CRUD de usuários, utilizando o faunaDb para armazenar e os dados, sendo ele o mais indicado banco de dados para aplicações serveless.
+Simples aplicação em reactjs com nextjs utilizando serverless no nextjs, a aplicação consiste em um simples CRUD de usuários, utilizando o faunaDb para armazenar e os dados, sendo ele o mais indicado banco de dados para aplicações serverless.
 
 A aplicação foi feita seguindo um artigo no medium, você pode esta lendo ele [aqui](https://medium.com/technest/crud-app-with-next-js-and-faunadb-918b76068e1e), vale salientar que toda a estilização da aplicação foi feita por mim, e algumas partes do código criado no artigo foi modificado na minha versão do projeto.
 
