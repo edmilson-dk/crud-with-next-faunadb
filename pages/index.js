@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import useSWR from 'swr';
+import Link from 'next/link';
 
 import styles from '../styles/Home.module.css';
 
@@ -47,6 +47,11 @@ function Home() {
           </>
         )}
       </div>
+
+      <Link href="/customers/create">
+        <a className="createNew">Create New Customer</a>
+      </Link>
+
     </Layout>
   )
 }
