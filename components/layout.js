@@ -6,7 +6,7 @@ const Layout = ({ children }) => (
       <title>Next Fauna CRUD</title>
     </Head>
 
-    <main>
+    <main className="layout-wrapper">
       <div className="container">{children}</div>
     </main>
   </>
