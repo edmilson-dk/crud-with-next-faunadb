@@ -7,18 +7,19 @@ const DataRow = ({
   telephone,
   creditCard,
   loading,
-  className,
 }) => (
-  <div className={className}>
-    <p className={loading ? 'loading' : ''}>
-      <Link href="/customers/[id]" as={`/customers/${id}`}>
-        <a>
-          {firstName} {lastName}
-        </a>
-      </Link>
-    </p>
-    <p className={`num ${loading ? 'loading' : ''}`}>{telephone}</p>
-    <p className={`creditCard num ${loading ? 'loading' : ''}`}>{creditCard}</p>
+  <div className="table-row">
+    <div>
+      <p className="table-name">
+        <Link href="/customers/[id]" as={`/customers/${id}`}>
+          <a>
+            {firstName} {lastName}
+          </a>
+        </Link>
+      </p>
+      <p className={`num ${loading ? 'loading' : ''}`}>{telephone}</p>
+      <p className={`creditCard num ${loading ? 'loading' : ''}`}>{creditCard}</p>
+    </div>
   </div>
 );
 
